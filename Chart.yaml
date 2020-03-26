@@ -1,0 +1,5 @@
+apiVersion: v2
+name: helm-sa-example
+description: A Helm creating a service account in a namespace capable of manipulating another, dedicated namespace.
+type: application
+version: 0.1.0

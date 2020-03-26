@@ -1,0 +1,10 @@
+# Default values for sa-example.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+serviceAccount:
+  name: "ckaserer"
+  namespace: "myNamespace"
+  access:
+    namespace: "targetNamespace"
+    clusterRole: "admin"
